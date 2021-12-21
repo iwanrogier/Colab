@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/css/tailwind.css" rel="stylesheet">
+</head>
+<body class="bg-white">
+
+
+<!-- Navbar -->
+  <nav class="flex items-center py-4 flex-wrap">
+
+    <!--Logo nav-->
+    <a href="index.html" class="ml-10 md:ml-48">
+      <svg class="w-8 fill-current text-black hover:text-purple-600 duration-500" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280.2 161.7"><defs></defs><path class="cls-1" d="M258.1,27.8A80.85,80.85,0,0,0,116.5,81.1a80.06,80.06,0,0,0,5.9,30.2,53,53,0,1,1-11.9-72.6L127,16.3A79.83,79.83,0,0,0,78.7.3,81,81,0,0,0-2.1,81.1c0,44.5,36.3,80.9,80.8,80.9A80.62,80.62,0,0,0,138,136.1,80.87,80.87,0,0,0,258.1,27.8Zm-16.4,82.4a52.71,52.71,0,1,1,8.7-28.9A52.41,52.41,0,0,1,241.7,110.2Z" transform="translate(2.1 -0.3)"/></svg>
+    </a>
+
+    <!--Burger Menu-->
+    <button
+      class="text-black inline-flex p-3 lg:hidden ml-auto hover:text-purple-600 outline-none nav-toggler" data-target="#navigation"> <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+      </svg>
+    </button>
+
+<!--nav-->
+    <div class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto mr-36" id="navigation">
+      <div class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto font-extrabold">
+        <a
+          href="about.html"
+          class="mx-6 text-sm text-black items-center justify-center border-b-2 border-transparent hover:border-purple-600 duration-500"><span>About</span>
+        </a>
+        <a href="spaces.html"
+          class="mx-6 text-sm text-black items-center justify-center border-b-2 border-transparent hover:border-purple-600 duration-500"><span>Spaces</span>
+        </a>
+        <a
+          href="events.html"
+          class="mx-6 text-sm text-black items-center justify-center border-b-2 border-transparent hover:border-purple-600 duration-500"><span>Events</span>
+        </a>
+        <a
+          href="focus-areas.html"
+          class="mx-6 text-sm text-black items-center justify-center border-b-2 border-transparent hover:border-purple-600 duration-500"><span>Focus areas</span>
+        </a>
+        <a
+          href="contact.html"
+          class="mx-6 text-sm text-black items-center justify-center border-b-2 border-transparent hover:border-purple-600 duration-500"><span>Contact</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div class="p-1 bg-gradient-to-b from-gray-200 to-gray-50"></div>
+
+
+<!-- Landing Content -->
+<div class="bg-gray-50 bg-no-repeat bg-right-bottom bg-contain" style="background-image: url(images/logo-background.svg)">
+  <section class="container mx-auto px-10 pb-20 sm:px-24 sm:pb-40 lg:px-52">
+    <div class="pt-24 flex justify-center">
+      <div class="">
+        <h3 class="text-3xl md:text-6xl font-medium text-left text-gray-800"> Houdt <span class="font-extrabold text-purple-600">IT-talent</span> in de regio voor <br> ontwikkeling van Drenthe</h3>
+        <p class="mt-7 text-left text-gray-800 font-bold md:text-xl leading-snug tracking-wider">
+          Urbanist Regular is used for all areas of body <br> copy and smaller text. It’s the most effective of <br> the font weights for legibility.
+        </p>
+      </div>
+    </div>
+    <div class="pt-16">
+      <a href=""><button class="bg-purple-600 border-4 border-purple-600 hover:bg-transparent font-bold text-white hover:text-black duration-500 rounded-xl px-12 py-2"><p>More Info</p></button></a>
+    </div>
+  </section>
+</div>
+
+
+<!--section 2-->
+  <section class="container mx-auto px-10 sm:px-24 lg:px-52 bg-white">
+    <div class="pb-20 flex justify-center">
+      <div class="">
+        <p class="mt-7 text-left text-gray-400 font-medium text-lg md:text-xl lg-text-3xl leading-snug tracking-wider">
+          Business
+        </p>
+        <h3 class="text-3xl md:text-6xl font-medium text-left text-gray-800"><span class="font-extrabold text-purple-600">Workflow</span> to make the next IT
+          step for your company.</h3>
+        <div class="items-center justify-center mt-4 lg:flex lg:gap-2"></div>
+      </div>
+    </div>
+  </section>
+
+
+<!--Logo grids-->
+  <div class="container mx-auto px-10 sm:px-24 lg:px-52 mb-10">
+    <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div class="flex justify-center p-1 bg-gray-100 rounded-lg"><img class="h-24" src="images/logo-tvm.png" alt="logo-tvm"></div>
+      <div class="flex justify-center p-1 bg-gray-100 rounded-lg"><img class="h-24" src="images/logo-unigarant.png" alt="logo-unigarant"></div>
+      <div class="flex justify-center p-1 bg-gray-100 rounded-lg"><img class="h-24" src="images/logo-rovecom.png" alt="logo-rovecom"></div>
+      <div class="flex justify-center p-1 bg-gray-100 rounded-lg"><img class="h-24" src="images/logo-uwv.png" alt="logo-uwv"></div>
+    </div>
+  </div>
+  <div class="container mx-auto px-10 sm:px-24 lg:px-52 mb-10">
+    <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div class="flex justify-center p-1 bg-gray-100 rounded-lg"><img class="h-24" src="images/logo-tvm.png" alt="logo-tvm"></div>
+      <div class="flex justify-center p-1 bg-gray-100 rounded-lg"><img class="h-24" src="images/logo-unigarant.png" alt="logo-unigarant"></div>
+      <div class="flex justify-center p-1 bg-gray-100 rounded-lg"><img class="h-24" src="images/logo-rovecom.png" alt="logo-rovecom"></div>
+      <div class="flex justify-center p-1 bg-gray-100 rounded-lg"><img class="h-24" src="images/logo-uwv.png" alt="logo-uwv"></div>
+    </div>
+  </div>
+  <div class="container mx-auto px-10 sm:px-24 lg:px-52 mb-10">
+    <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div class="flex justify-center p-1 bg-gray-100 rounded-lg"><img class="h-24" src="images/logo-tvm.png" alt="logo-tvm"></div>
+      <div class="flex justify-center p-1 bg-gray-100 rounded-lg"><img class="h-24" src="images/logo-unigarant.png" alt="logo-unigarant"></div>
+      <div class="flex justify-center p-1 bg-gray-100 rounded-lg"><img class="h-24" src="images/logo-rovecom.png" alt="logo-rovecom"></div>
+      <div class="flex justify-center p-1 bg-gray-100 rounded-lg"><img class="h-24" src="images/logo-uwv.png" alt="logo-uwv"></div>
+    </div>
+  </div>
+
+
+ <!--Footer--> 
+<footer class="text-gray-100 bg-gray-800">
+  <div class="max-w-3xl mx-auto py-6">
+      <h1 class="text-center text-lg lg:text-2xl">
+          Want to work with Us? <br> E-mail us to let us know.
+      </h1>
+
+      <div class="flex justify-center mt-6">
+          <div class="bg-white rounded-md">
+              <div class="flex flex-wrap justify-between md:flex-row">
+                  <input type="email" class="m-1 p-2 appearance-none text-gray-700 text-sm focus:outline-none focus:placeholder-transparent" placeholder="Enter your email" aria-label="Enter your email">
+                  <button class="w-full m-1 p-2 text-sm text-white hover:text-purple-600 bg-purple-600 rounded font-semibold lg:w-auto hover:bg-white duration-500">E-mail Me</button>
+              </div>
+          </div>
+      </div>
+
+      <hr class="h-px mt-6 bg-gray-700 border-none">
+
+      <div class="flex flex-col items-center justify-between mt-6 md:flex-row">
+          <div>
+              <a href="#" class="text-xl font-bold text-gray-100 hover:text-purple-600 duration-500">Colab</a>
+          </div>
+
+          <div class="flex mt-4 md:m-0">
+              <div class="-mx-4">
+                  <a href="#" class="px-4 text-sm text-gray-100 font-medium hover:text-purple-600 duration-500">Cases</a>
+                  <a href="#" class="px-4 text-sm text-gray-100 font-medium hover:text-purple-600 duration-500">About Us</a>
+                  <a href="#" class="px-4 text-sm text-gray-100 font-medium hover:text-purple-600 duration-500">Contact</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
